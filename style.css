@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 body{
     background-color: antiquewhite;
+    background-image: url('guitar-1836655_640.jpg'); 
+    background-size: cover;
+    background-position: center;
 }
 
 *{
@@ -43,17 +46,15 @@ nav ul li{
 
 .container{
     min-height: 72vh;
-    background-color: black;
+  
     color: rgb(0, 0, 0);
    font-family: 'Varela Round', sans-serif;
    display: flex;
    margin: 23px auto;
    width: 70%;
    border-radius: 12px;
-   padding: 34px;
-   background-image: url('guitar-1836655_640.jpg');
-   background-size: cover;
-    background-position: center;
+   padding: 100px;
+   
 }
 
 .bottom{
